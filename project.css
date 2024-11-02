@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #2D4739;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    box-sizing: border-box;
+    background-color: #2D4739;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* Ensure header is on top */
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header a.active {
+    color: #FF6F3C;
+}
+
+
+/*body {
+    font-family: Arial, sans-serif;
+    background-color: #1e2d24;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}*/
+
+.portfolio {
+    text-align: center;
+    padding: 70px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #ffffff;
+}
+
+p {
+    color: #cccccc;
+    margin-bottom: 20px;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-box {
+    background-color: #2e3c32;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.project-box:hover {
+    transform: scale(1.05);
+}
+
+.project-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.project-info {
+    padding: 15px;
+    text-align: left;
+}
+
+.project-info h2 {
+    font-size: 1.5em;
+    color: #f3c200;
+    margin: 0;
+}
+
+.project-info p {
+    font-size: 1em;
+    color: #bfbfbf;
+    margin: 10px 0;
+}
+
+.project-info a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #4CAF50;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.project-info a:hover {
+    background-color: #45a049;
+}
